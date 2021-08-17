@@ -1,0 +1,45 @@
+/* common styles and utilities */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: powderblue;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: white;
+    width: 1000px;
+    padding: 10px;
+}
+
+/* top-players-styles */
+.top-player-title{
+    color: violet;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.player{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.player h3{
+    margin-left: 7px;
+}
+.player img{
+    height: 56;
+    width: 56px;
+}
+
+hr{
+    border: 1px solid gray;
+}
+
